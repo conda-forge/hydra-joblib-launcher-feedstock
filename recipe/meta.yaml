@@ -1,5 +1,5 @@
 {% set name = "hydra-joblib-launcher" %}
-{% set version = "1.1.5" %}
+{% set version = "1.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/hydra-joblib-launcher-{{ version }}.tar.gz
-  sha256: f18f3d1ffe3bc89930bf2c72209d7d01a1f4e842628c621dcfade7ca8b230d63
+  sha256: b4dc8b990221a0df048c094954356c6532585557e708e8198c46a877b379a6d5
 
 build:
   noarch: python
